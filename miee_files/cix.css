@@ -1,0 +1,64 @@
+.pronto-scroll {
+  -webkit-overflow-scrolling: touch;
+}
+.pronto-content__action_type_videocall {
+  width: 24px;
+  height: 24px;
+  margin: 5px 0 0 16px;
+  margin-right: -2px;
+}
+.lastitem {
+  height: 10px;
+}
+#pronto-call-group-video .pronto-call__content {
+  overflow: hidden;
+  
+  background: black;
+}
+.blink {
+  animation: blink 1s ease-in-out infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.pronto-contacts-alphabetNav {
+  
+  z-index: 12;
+  position: absolute;
+  right: 0;
+  height: 90%;
+  padding: 10px 0;
+  margin: 10px 20px;
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.pronto-contacts-alphabetNav .letter {
+  display: block;
+  box-sizing: border-box;
+  padding: 0 10px;
+  
+  color: white;
+  
+  font-family: 'arial';
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.pronto-contacts-alphabetNav .letter:hover {
+  background: #666;
+}
+.pronto-selector-contacts__item.empty {
+  padding: 10px;
+}
+#pronto-add-contact_contact-choose-address .pronto-selector-contacts__item-contact-info {
+  padding-left: 55px;
+}
